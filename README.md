@@ -28,7 +28,7 @@ ThinStation OS Framework for Embedded Systems
 -------------------------------------------------------------------------------
 What's the justification that this really does need to be signed for the whole world to be able to boot it:
 -------------------------------------------------------------------------------
-I compile a custom kernel with out of tree modules that is distributed globally. This kernel and OS need to be bootable on Secure boot enabled systems.
+I compile a custom kernel with out-of-tree modules that is distributed globally. This kernel and OS need to be bootable on Secure boot enabled systems.
 
 -------------------------------------------------------------------------------
 Who is the primary contact for security updates, etc.
@@ -97,7 +97,7 @@ sed for a typo: UNKOWN to UNKNOWN
 What OS and toolchain must we use to reproduce this build?  Include where to find it, etc.  We're going to try to reproduce your build as close as possible to verify that it's really a build of the source tree you tell us it is, so these need to be fairly thorough. At the very least include the specific versions of gcc, binutils, and gnu-efi which were used, and where to find those binaries.
 -------------------------------------------------------------------------------
 ThinStation  
-git clone https://github.com/Thinstation/thinstation.git  
+git clone --depth 1 https://github.com/Thinstation/thinstation.git  
 cd thinstation  
 ./setup-chroot  
 ./setup-chroot -e prt-get update -fr shim |tee shim-build.log  
