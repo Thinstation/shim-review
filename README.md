@@ -99,7 +99,7 @@ What OS and toolchain must we use to reproduce this build?  Include where to fin
 ThinStation  
 git clone --depth 1 https://github.com/Thinstation/thinstation.git  
 cd thinstation  
-./setup-chroot  
+./setup-chroot -i  
 ./setup-chroot -e prt-get update -fr shim |tee shim-build.log  
 
 
