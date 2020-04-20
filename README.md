@@ -37,7 +37,7 @@ Who is the primary contact for security updates, etc.
 - Position: Owner
 - Email address: doncuppjr@yahoocom
 - PGP key, signed by the other security contacts, and preferably also with signatures that are reasonably well known in the linux community:  
------BEGIN PGP PUBLIC KEY BLOCK-----
+'-----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQENBF6cr0MBCADbuKFE6FCYz2jfX+zEygIRD+9KTS79ASE0JXSb29LTHQN7tYy6
 dPe6/Bz1XiTEjpGt7DD+/2ObFiXESFOt1uzWmq/ts+n0x4IRR2isfipTDq4W7rHy
@@ -66,7 +66,7 @@ xIm1RvLcP40BZQTmaFG5IWqrYSPCdpftEjoackDpkSAOBZLdaGEBxq2IwoXzfyLY
 +RXlDjlUVpNI6vUFSEFzvN/mDnfv43x08VAaLhxd5WO0tF80PU536DK5TZVy3vk8
 4D555qI0jaAJHq/uKcgXH9VuQc2oUA32L1BzkMmnbPVTCm6izzoTSpmRl6jbONbv
 =OYoc
------END PGP PUBLIC KEY BLOCK-----  
+-----END PGP PUBLIC KEY BLOCK-----'
 
 
 -------------------------------------------------------------------------------
