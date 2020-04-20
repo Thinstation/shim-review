@@ -85,6 +85,7 @@ What upstream shim tag is this starting from:
 -------------------------------------------------------------------------------
 URL for a repo that contains the exact code which was built to get this binary:
 -------------------------------------------------------------------------------
+https://github.com/rhboot/shim/releases/download/15/shim-15.tar.bz2
 https://github.com/Thinstation/thinstation/tree/6.2-Stable/ts/ports/components/shim
 
 -------------------------------------------------------------------------------
