@@ -20,25 +20,25 @@ Make sure you have provided the following information:
 `https://github.com/rhboot/shim/releases/download/15/shim-15.tar.bz2 15`
 
 ###### What's the justification that this really does need to be signed for the whole world to be able to boot it:
-`I compile a custom kernel with out of tree modules that is distributed globally. This kernel and OS need to be bootable on Secure boot enabled systems.`
+`I compile a custom kernel with out-of-tree modules that is distributed globally. This kernel and OS need to be bootable on Secure boot enabled systems.`
 
 ###### How do you manage and protect the keys used in your SHIM?
-`AES256 Hardware Key with Pin Entry`
+`AES256 Hardware Key`
 
 ###### Do you use EV certificates as embedded certificates in the SHIM?
 `No`
 
 ###### What is the origin and full version number of your bootloader (GRUB or other)?
-`REFInd: https://git.code.sf.net/p/refind/code [4a84fc], gummiboot: https://github.com/systemd/systemd/archive/v244.tar.gz [244]`
+`Grub2: 2.04, https://github.com/Thinstation/thinstation/tree/6.2-Stable/ts/ports/opt/gnu-efi, http://download.sourceforge.net/gnu-efi/gnu-efi-2.04.tar.bz2`
 
 ###### If your SHIM launches any other components, please provide further details on what is launched
-`SHIM will launch either the REFInd or gummiboot bootloader.`
+`Does not load other components.`
 
 ###### How do the launched components prevent execution of unauthenticated code?
-`Both REFInd and gummiboot communicate with the SHIM to authenticate code to be executed.`
+`GRUB enforces Secure Boot, using the accepted patches (see github.com/rhboot/grub2); fallback.efi and MokManager are shim components that enforce authenticated code already.`
 
 ###### Does your SHIM load any loaders that support loading unsigned kernels (e.g. GRUB)?
-`No. Only REFInd and gummiboot will be signed. Each of which only execute signed kernels.`
+`No`
 
 ###### What kernel are you using? Which patches does it includes to enforce Secure Boot?
 `Linux Kernel 5.4.33: No Patches`
