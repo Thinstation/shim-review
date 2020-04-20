@@ -103,9 +103,9 @@ cd thinstation
 ./setup-chroot -e prt-get update -fr shim |tee shim-build.log  
 
 
-gcc, 9.2.0, https://github.com/Thinstation/thinstation/tree/6.2-Stable/ts/ports/core/gcc
-binutils, 2.32, https://github.com/Thinstation/thinstation/tree/6.2-Stable/ts/ports/core/binutils
-gnu-efi, 3.0.11, https://github.com/Thinstation/thinstation/tree/6.2-Stable/ts/ports/opt/gnu-efi
+gcc, 9.2.0, https://github.com/Thinstation/thinstation/tree/6.2-Stable/ts/ports/core/gcc  
+binutils, 2.32, https://github.com/Thinstation/thinstation/tree/6.2-Stable/ts/ports/core/binutils  
+gnu-efi, 3.0.11, https://github.com/Thinstation/thinstation/tree/6.2-Stable/ts/ports/opt/gnu-efi  
 
 -------------------------------------------------------------------------------
 Which files in this repo are the logs for your build?   This should include logs for creating the buildroots, applying patches, doing the build, creating the archives, etc.
