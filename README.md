@@ -35,7 +35,7 @@ Who is the primary contact for security updates, etc.
 -------------------------------------------------------------------------------
 - Name: Donald A. Cupp Jr.
 - Position: Owner
-- Email address: doncuppjr@yahoocom
+- Email address: doncuppjr@yahoo.com
 - PGP key, signed by the other security contacts, and preferably also with signatures that are reasonably well known in the linux community:  
 '-----BEGIN PGP PUBLIC KEY BLOCK-----
 
