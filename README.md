@@ -28,7 +28,7 @@ ThinStation OS Framework for Embedded Systems
 -------------------------------------------------------------------------------
 What's the justification that this really does need to be signed for the whole world to be able to boot it:
 -------------------------------------------------------------------------------
-We compile a custom kernel with out-of-tree modules that is distributed globally. This kernel and OS need to be bootable on Secure boot enabled systems.
+We compile a custom kernel, with out-of-tree modules, that is distributed globally to millions of Secure boot enabled systems.
 
 -------------------------------------------------------------------------------
 Who is the primary contact for security updates, etc.

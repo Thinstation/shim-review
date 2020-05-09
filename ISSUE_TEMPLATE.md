@@ -1,7 +1,7 @@
 Make sure you have provided the following information:
 
  - [x] link to your code branch cloned from rhboot/shim-review in the form user/repo@tag
-	https://github.com/ThinStation/shim-review
+	https://github.com/ThinStation/shim-review@ThinStation-shim-x64-20200509
  - [x] completed README.md file with the necessary information
  - [x] shim.efi to be signed
  - [x] public portion of your certificate embedded in shim (the file passed to VENDOR_CERT_FILE)
@@ -20,7 +20,7 @@ Make sure you have provided the following information:
 `https://github.com/rhboot/shim/releases/download/15/shim-15.tar.bz2 15`
 
 ###### What's the justification that this really does need to be signed for the whole world to be able to boot it:
-`I compile a custom kernel with out-of-tree modules that is distributed globally. This kernel and OS need to be bootable on Secure boot enabled systems.`
+`I compile a custom kernel, with out-of-tree modules, that is distributed globally to millions of Secure boot enabled systems.`
 
 ###### How do you manage and protect the keys used in your SHIM?
 `AES256 Hardware Key`
@@ -48,4 +48,4 @@ Fedora patches 0001 - 0210`
 `N/A Never Signed`
 
 ###### What is the hash of your final SHIM binary?
-`511e5518678ad3a694347257129413ff3f607993f095d521803a4be79d69f6fb  shimx64.efi`
+`50b28653b7bfd3454142273eb1fb6297ed39a133b687b30788987e7508fa438a shimx64.efi`
