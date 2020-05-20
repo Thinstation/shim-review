@@ -48,4 +48,4 @@ Fedora patches 0001 - 0210`
 `N/A Never Signed`
 
 ###### What is the hash of your final SHIM binary?
-`50b28653b7bfd3454142273eb1fb6297ed39a133b687b30788987e7508fa438a shimx64.efi`
+`d001cbf8128378ac2311bfefca9eaf813b72ab2b7711e99785791d998ffd2d86 shimx64.efi`
