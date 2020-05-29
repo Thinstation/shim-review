@@ -29,8 +29,10 @@ Make sure you have provided the following information:
 `No`
 
 ###### What is the origin and full version number of your bootloader (GRUB or other)?
-`Grub2: 2.04, https://github.com/Thinstation/thinstation/tree/6.2-Stable/ts/ports/opt/gnu-efi, http://download.sourceforge.net/gnu-efi/gnu-efi-2.04.tar.bz2
-Fedora patches 0001 - 0210`
+`Grub2: 2.04 
+ https://github.com/Thinstation/thinstation/tree/6.2-Stable/ts/ports/opt/grub2 
+ http://ftp.gnu.org/gnu/grub/grub-2.04.tar.xz 
+ Fedora patches 0001 - 0210`
 
 ###### If your SHIM launches any other components, please provide further details on what is launched
 `Does not load other components.`
